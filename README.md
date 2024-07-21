@@ -66,14 +66,15 @@ timeout for jenkins connection: 300
 ## Create a pipeline and test if the agent works
 
 Pipeline script:
+```
 node('jenkins-slave') {
-    
      stage('test pipeline') {
         sh(script: """
             echo "hello"
         """)
     }
 }
+```
 
 ## Run the pipeline
 
