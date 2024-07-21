@@ -38,6 +38,7 @@ kubectl -n jenkins port-forward <pod-name> 8080
 2. New Cloud
 
 ### Cloud Kubernetes Configuration
+```
 name: kubernetes
 https certificate check: false
 kubernetes_url: https://kubernetes.default:443
@@ -62,6 +63,7 @@ Host Path Volume:
     host_path: /var/run/docker.sock
     mount_path: /var/run/docker.sock
 timeout for jenkins connection: 300
+```
 
 ## Create a pipeline and test if the agent works
 
