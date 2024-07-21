@@ -1,6 +1,6 @@
 # jenkins-on-kubernetes
 
-I am learning about deploying Jenkins to Kubernetes with persistent volume.
+I am learning about deploying Jenkins to Kubernetes. Materials used: https://www.youtube.com/watch?v=eRWIJGF3Y2g, https://www.jenkins.io/
 
 ## Create namespace for jenkins
 ```sh
