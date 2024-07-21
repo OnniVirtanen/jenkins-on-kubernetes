@@ -82,4 +82,9 @@ node('jenkins-slave') {
 
 
 Build was success!
+
 ![alt text](image-1.png)
+
+The build was done by a kubernetes pod that has a jenkins slave image
+
+![image](https://github.com/user-attachments/assets/018c93ae-f547-42a3-bac4-0d61fea5ed92)
